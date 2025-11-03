@@ -16,3 +16,8 @@ st.markdown('''
                     .sub-header {font_size: 24px; text-align:center; color: #666;}
                 </style>
             ''', unsafe_allow_html = True)
+
+# Sidebar
+st.sidebar.title('🌎 Navigation')
+page = st.sidebar.radio('Go to',
+                        {'🦾 Home','🐼 About', '🚗 Skills', ✈ Resume', '📞 Contact' })
