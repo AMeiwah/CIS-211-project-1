@@ -24,6 +24,6 @@ page = st.sidebar.radio('Go to',
 
 # Home page
 if page == '🦾 Home':
-  st.markdown('<p class"main-header">Andy Mei</p>', unsafe_allow_html=True)
+  st.markdown('<p class="main-header">Andy Mei</p>', unsafe_allow_html=True)
   st.markdown('<p class="sub-header">Aspiring Businessman | Medger Evers College</p>', unsafe_allow_html=True)
   
