@@ -13,7 +13,7 @@ st.set_page_config(
 st.markdown('''
                 <style>
                     .main-header {font-size: 42px; font-weight: bold; text-align:center;}
-                    .sub-header {font_size: 24px; text-align:center; color: #666;}
+                    .sub-header {font-size: 24px; text-align:center; color: #666;}
                 </style>
             ''', unsafe_allow_html = True)
 
