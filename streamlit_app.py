@@ -1,3 +1,4 @@
+
 import streamlit as st
 import pandas as pd 
 from datetime import datetime
@@ -53,5 +54,9 @@ with col1:
 
   🌱 **Fun Fact:** I am a NBA superfan!
   ''')
+
+with col2:
+  # Placeholder for image
+  st.image('
   
   
