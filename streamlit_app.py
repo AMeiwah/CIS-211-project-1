@@ -57,6 +57,6 @@ with col1:
 
 with col2:
   # Placeholder for image
-  st.image('
+  st.image('https://raw.githubusercontent.com/AMeiwah/CIS-211-project-1/refs/heads/main/golden.jfif', use_column_width=True)
   
   
