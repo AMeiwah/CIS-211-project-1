@@ -58,5 +58,24 @@ with col1:
 with col2:
   # Placeholder for image
   st.image('https://raw.githubusercontent.com/AMeiwah/CIS-211-project-1/refs/heads/main/golden.jfif', use_column_width=True)
+
+# About Page
+elif page == '🤠 About':
+  st.title('All about Me')
+
+# Timeline of my Journey
+st.subheader('My Journey 🌎')
+
+with st.expander('2025 - Present: Medger Evers College'):
+  st.write('''
+            - Major: Computer Information Systems
+            - Relevant Coursework: Internet & Emerging Technologies, Environmental Health
+            - Activities: Basketball Player, Gamer, Guard
+          ''')
+  with st.expander('2017-2021: NYC Museusm School'):
+    st.write('''
+              - Graduated with Honors
+              - AP US History
+              - Varisty Basketball team
   
   
