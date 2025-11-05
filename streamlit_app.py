@@ -39,4 +39,19 @@ with col3:
   st.metric('Skills', '10+', '🏀')
 
 st.write('---')
+
+#Introduction with columns
+col1, col2 = st.columns([2,1])
+with col1:
+  st.subheader('Welcome to my digtial space!👋')
+  st.write('''
+  I am a student of Medger Evers College, hoping to one day learn how to run a business with the goel of making it in life. Currently learning how to code with HTML, CSS, JavaScript, and Python to build innovative solutions.
+
+  ⌨ **Current Focus:** Building interative web applications with Streamlit
+
+  📚 **Currently learning:** Internet and Emergin Technologies (CIS 211)
+
+  🌱 **Fun Fact:** I am a NBA superfan!
+  ''')
+  
   
