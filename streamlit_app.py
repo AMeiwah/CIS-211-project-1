@@ -72,10 +72,12 @@ with st.expander('2025 - Present: Medger Evers College'):
             - Relevant Coursework: Internet & Emerging Technologies, Environmental Health
             - Activities: Basketball Player, Gamer, Guard
           ''')
-  with st.expander('2017-2021: NYC Museusm School'):
-    st.write('''
+with st.expander('2017-2021: NYC Museusm School'):
+   st.write('''
               - Graduated with Honors
               - AP US History
               - Varisty Basketball team
+            ''')
+          
   
   
