@@ -59,25 +59,30 @@ with col2:
   # Placeholder for image
   st.image('https://raw.githubusercontent.com/AMeiwah/CIS-211-project-1/refs/heads/main/golden.jfif', use_column_width=True)
 
-# About Page
-  elif page == '🤠 About':
+# elif page == '🤠 About':
     st.title('About Me')
 
-# Timeline of my Journey
-st.subheader('My Journey 🌎')
+    # Timeline of my Professional Journey
+    st.subheader('My Journey 🗺️')
 
-with st.expander('2025 - Present: Medger Evers College'):
-  st.write('''
+    with st.expander('2025 - Present: Medgar Evers College'):
+        st.write('''
             - Major: Computer Information Systems
-            - Relevant Coursework: Internet & Emerging Technologies, Environmental Health
-            - Activities: Basketball Player, Gamer, Guard
-          ''')
-with st.expander('2017-2021: NYC Museusm School'):
-   st.write('''
-              - Graduated with Honors
-              - AP US History
-              - Varisty Basketball team
-            ''')
+            - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
+            - Activities: Track Team, Volleyball Team, Hackathon participant
+        ''')
+
+st.subheader('Interests & Hobbies 🏀')
+  interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
+
+  # Display the interests in columns
+  cols = st.columns(3)
+  for i, interest in enumerate(interests):
+    with cols[i % 3]:
+      st.info(f'🔷 {interest}')
+elif page == '💼 Projects':
+  st.title('My Projects')
+  st.write('Here are some projects I have worked on:')
           
   
   
