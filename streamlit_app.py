@@ -59,8 +59,8 @@ with col2:
   # Placeholder for image
   st.image('https://raw.githubusercontent.com/AMeiwah/CIS-211-project-1/refs/heads/main/golden.jfif', use_column_width=True)
 
-# elif page == '🤠 About':
-    st.title('About Me')
+elif page == '🤠 About':
+ st.title('About Me')
 
     # Timeline of my Professional Journey
     st.subheader('My Journey 🗺️')
@@ -71,7 +71,12 @@ with col2:
             - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
             - Activities: Track Team, Volleyball Team, Hackathon participant
         ''')
-
+with st.expander('2017 - 2021: NYC Museum School'):
+    st.write('''
+                - Graduated with honors
+                - AP US History
+                - Played on the Basketball team
+            ''')
 st.subheader('Interests & Hobbies 🏀')
   interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
 
