@@ -78,13 +78,13 @@ if page == '🤠 About':
             - Played on the Basketball team
         ''')
 st.subheader('Interests & Hobbies 🏀')
-  interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
+interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
 
-  # Display the interests in columns
-  cols = st.columns(3)
-  for i, interest in enumerate(interests):
-    with cols[i % 3]:
-      st.info(f'🔷 {interest}')
+# Display the interests in columns
+cols = st.columns(3)
+for i, interest in enumerate(interests):
+  with cols[i % 3]:
+    st.info(f'🔷 {interest}')
 elif page == '💼 Projects':
   st.title('My Projects')
   st.write('Here are some projects I have worked on:')
