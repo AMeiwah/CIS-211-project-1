@@ -118,13 +118,12 @@ elif page == '🛠 Skills':
 # Skills with progress bar
 st.subheader ('Life skills')
 
-skills data = {
-  'Basketball' : 85,
-  'Gaming' : 80
-  'Coding' : 69
-  'Cooking' : 65
+skills_data = {
+  'Basketball': 85,
+  'Gaming': 80,
+  'Coding': 69,
+  'Cooking': 65
 }
-
  for skill, level in skills_data.items():
     col1, col2 = st.columns([1,3])
     with col1:
