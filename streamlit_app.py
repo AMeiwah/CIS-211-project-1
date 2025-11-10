@@ -83,8 +83,8 @@ interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketbal
 # Display the interests in columns
 cols = st.columns(3)
 for i, interest in enumerate(interests):
-  with cols[i % 3]:
-    st.info(f'🔷 {interest}')
+with cols[i % 3]:
+  st.info(f'🔷 {interest}')
 elif page == '💼 Projects':
   st.title('My Projects')
   st.write('Here are some projects I have worked on:')
@@ -93,13 +93,13 @@ elif page == '💼 Projects':
   with st.container():
     col1, col2 = st.columns([1, 2])
   
-    with col1:
-        st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
+  with col1:
+      st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
 
-    with col2:
-        st.subheader('🛒 E-Commerce Price Tracker')
-        st.write('Python web scraper that monitors Amazon prices and sends alerts')
-        st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+  with col2:
+      st.subheader('🛒 E-Commerce Price Tracker')
+      st.write('Python web scraper that monitors Amazon prices and sends alerts')
+      st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
 
 
   # Project 2 
