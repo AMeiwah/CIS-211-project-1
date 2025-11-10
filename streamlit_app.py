@@ -29,7 +29,6 @@ if page == '🦾 Home':
   st.markdown('<p class="sub-header">Aspiring Businessman | Medger Evers College</p>', unsafe_allow_html=True)
 
   # Three Columns for stats
-
 col1, col2, col3 = st.columns(3)
 
 with col1:
