@@ -59,25 +59,25 @@ with col2:
 
 # About Page
 if page == '🤠 About':
-    st.title('About Me')
+  st.title('About Me')
 
-    # Timeline of my Professional Journey
+  # Timeline of my Professional Journey
     st.subheader('My Journey 🗺️')
 
-    with st.expander('2025 - Present: Medgar Evers College'):
-        st.write('''
-            - Major: Computer Information Systems
-            - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
-            - Activities: Track Team, Volleyball Team, Hackathon participant
-        ''')
+  with st.expander('2025 - Present: Medgar Evers College'):
+    st.write('''
+      - Major: Computer Information Systems
+      - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI
+      - Activities: Track Team, Volleyball Team, Hackathon participant
+  ''')
 
-    with st.expander('2017 - 2021: NYC Museum School'):
-        st.write('''
-            - Graduated with honors
-            - AP US History
-            - Played on the Basketball team
-        ''')
-st.subheader('Interests & Hobbies 🏀')
+  with st.expander('2017 - 2021: NYC Museum School'):
+    st.write('''
+      - Graduated with honors
+      - AP US History
+      - Played on the Basketball team
+  ''')
+  st.subheader('Interests & Hobbies 🏀')
 interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
 
 # Display the interests in columns
