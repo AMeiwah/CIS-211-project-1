@@ -60,8 +60,8 @@ with col2:
   st.image('https://raw.githubusercontent.com/AMeiwah/CIS-211-project-1/refs/heads/main/golden.jfif', use_column_width=True)
 
 # About Page
-elif page == '🤠 About':
-  st.title('All about Me')
+  elif page == '🤠 About':
+    st.title('All about Me')
 
 # Timeline of my Journey
 st.subheader('My Journey 🌎')
