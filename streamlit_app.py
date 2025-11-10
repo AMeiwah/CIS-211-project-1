@@ -58,7 +58,7 @@ with col2:
   st.image('https://raw.githubusercontent.com/AMeiwah/CIS-211-project-1/refs/heads/main/golden.jfif', use_column_width=True)
 
 # About Page
-elif page == '🤠 About':
+if page == '🤠 About':
     st.title('About Me')
 
     # Timeline of my Professional Journey
