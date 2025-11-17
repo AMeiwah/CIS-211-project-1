@@ -165,12 +165,20 @@ elif page == '✈ Resume':
         st.error("❌ Resume file not found. Make sure 'my_resume.pdf' is in the same folder.")
 
 elif page == '📞 Contact':
-    st.title('Let's Connect!')
+    st.title("Let's Connect!")
 
     col1, col2 = st.columns(2)
 
     with col1:
-        st.subheader('Send me a message.)
+        st.subheader('Send me a message')
+
+        st.write("""
+        📧 **Email:** andymei152@gmail.com  
+
+        📷 **Instagram:** [@andymei24](https://www.instagram.com/) 
+
+
+        ''')
 
 
 
