@@ -90,27 +90,27 @@ elif page == '💼 Projects':
   st.write('Here are some projects I have worked on:')
 
 # Project 1
-  with st.container():
-    col1, col2 = st.columns([1, 2])
+with st.container():
+  col1, col2 = st.columns([1, 2])
   
-  with col1:
-      st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
+with col1:
+    st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
 
-  with col2:
-      st.subheader('🛒 E-Commerce Price Tracker')
-      st.write('Python web scraper that monitors Amazon prices and sends alerts')
-      st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+with col2:
+    st.subheader('🛒 E-Commerce Price Tracker')
+    st.write('Python web scraper that monitors Amazon prices and sends alerts')
+    st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
 
 
   # Project 2 
-  with st.container():
-    col1, col2 = st.columns([1,2])
-    with col1:
-      st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg')
-    with col2:
-      st.subheader('📊 Student Grade Calulator')
-      st.write('Interactive web app for calculating and visualizing grades')
-      st.caption('**Technologies:** Python, Pandas, Plotly')
+with st.container():
+  col1, col2 = st.columns([1,2])
+with col1:
+  st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg')
+with col2:
+  st.subheader('📊 Student Grade Calulator')
+  st.write('Interactive web app for calculating and visualizing grades')
+  st.caption('**Technologies:** Python, Pandas, Plotly')
 
 elif page == '🛠 Skills':
   st.title('Technical Skills')
@@ -124,30 +124,30 @@ skills_data = {
   'Coding': 69,
   'Cooking': 65
 }
- for skill, level in skills_data.items():
-    col1, col2 = st.columns([1,3])
-    with col1:
-      st.write(skill)
-    with col2:
-      st.progress(level/100)
+for skill, level in skills_data.items():
+  col1, col2 = st.columns([1,3])
+with col1:
+  st.write(skill)
+with col2:
+  st.progress(level/100)
 
   st.subheader('Tools & Technologies')
 
   col1, col2, col3 = st.columns(3)
-  with col1:
-    st.success('Excel')
-    st.info('Word')
-    st.warning('Access')
+with col1:
+  st.success('Excel')
+  st.info('Word')
+  st.warning('Access')
 
-  with col2:
-    st.success('PowerPoint')
-    st.info('Google Docs')
-    st.warning('ChatGPT/AI Tools')
+with col2:
+  st.success('PowerPoint')
+  st.info('Google Docs')
+  st.warning('ChatGPT/AI Tools')
     
-  with col3:
-    st.success('Presentations')
-    st.info('Writing')
-    st.warning('Social Media')
+with col3:
+  st.success('Presentations')
+  st.info('Writing')
+  st.warning('Social Media')
     
       
 
