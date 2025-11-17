@@ -172,7 +172,7 @@ elif page == '📞 Contact':
     with col1:
         st.subheader('Send me a message')
 
-        st.write("""
+        st.write('''
         📧 **Email:** andymei152@gmail.com  
 
         📷 **Instagram:** [@andymei24](https://www.instagram.com/) 
