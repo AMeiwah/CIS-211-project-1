@@ -65,9 +65,9 @@ elif page == '🐼 About':
 
     with st.expander('2025 - Present: Medgar Evers College'):
         st.write("""
-        - Major: Computer Information Systems  
-        - Relevant Coursework: Internet & Emerging Technologies, Programming, Database Systems, AI  
-        - Activities: Track Team, Volleyball Team, Hackathon participant  
+        - Major: Business Administration  
+        - Relevant Coursework: Internet & Emerging Technologies, Small Business Management, Organizational Behavior  
+        - Activities: Gamer, Basketball  
         """)
 
     with st.expander('2017 - 2021: NYC Museum School'):
