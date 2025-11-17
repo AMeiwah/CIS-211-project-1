@@ -84,7 +84,7 @@ interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketbal
 cols = st.columns(3)
 for i, interest in enumerate(interests):
   with cols[i % 3]:
-  st.info(f'🔷 {interest}')
+    st.info(f'🔷 {interest}')
 elif page == '📚 Projects':
   st.title('My Projects')
   st.write('Here are some projects I have worked on:')
