@@ -146,19 +146,24 @@ elif page == '🚗 Skills':
         st.info('Writing')
         st.warning('Social Media')
 
-    elif page == '📝 Resume':
-  st.title('Resume')
+    # ---------------- RESUME PAGE ----------------
+elif page == '✈ Resume':
+    st.title('My Resume')
 
-    # Read PDF from my GitHub repository
-    with open('my_resume.pdf', 'rb') as pdf_file:
-      PDFbyte = pdf_file.read()
+    try:
+        with open('my_resume.pdf', 'rb') as pdf_file:
+            PDFbyte = pdf_file.read()
 
-    st.download_button(
-      label ='🔻 Download Full Resume (PDF)',
-      data = PDFbyte,
-      file_name = 'my_resume.pdf',
-      mime ='application/pdf'
-    )
+        st.download_button(
+            label='🔻 Download Full Resume (PDF)',
+            data=PDFbyte,
+            file_name='Andy_Mei_Resume.pdf',
+            mime='application/pdf'
+        )
+
+    except FileNotFoundError:
+        st.error("❌ Resume file not found. Make sure 'my_resume.pdf' is in the same folder.")
+
 
 
       
