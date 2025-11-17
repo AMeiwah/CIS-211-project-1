@@ -58,7 +58,7 @@ with col2:
   st.image('https://raw.githubusercontent.com/AMeiwah/CIS-211-project-1/refs/heads/main/golden.jfif', use_column_width=True)
 
 # About Page
-if page == '🤠 About':
+if page == '🐼 About':
   st.title('About Me')
 
   # Timeline of my Professional Journey
@@ -83,9 +83,9 @@ interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketbal
 # Display the interests in columns
 cols = st.columns(3)
 for i, interest in enumerate(interests):
-with cols[i % 3]:
+  with cols[i % 3]:
   st.info(f'🔷 {interest}')
-elif page == '💼 Projects':
+elif page == '📚 Projects':
   st.title('My Projects')
   st.write('Here are some projects I have worked on:')
 
@@ -112,7 +112,7 @@ with col2:
   st.write('Interactive web app for calculating and visualizing grades')
   st.caption('**Technologies:** Python, Pandas, Plotly')
 
-elif page == '🛠 Skills':
+elif page == '✈ Skills':
   st.title('Technical Skills')
 
 # Skills with progress bar
