@@ -78,7 +78,7 @@ elif page == '🐼 About':
         """)
 
     st.subheader('Interests & Hobbies 🏀')
-    interests = ['Web Development', 'AI/Machine Learning', 'Photography', 'Basketball', 'Travel', 'Baseball']
+    interests = ['Business Administration', 'PC Building', 'Gambling', 'Basketball', 'Travel', 'Football']
 
     cols = st.columns(3)
     for i, interest in enumerate(interests):
