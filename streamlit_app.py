@@ -63,7 +63,7 @@ elif page == '🐼 About':
     st.title('About Me')
     st.subheader('My Journey 🗺️')
 
-    with st.expander('2025 - Present: Medgar Evers College'):
+    with st.expander('2022 - Present: Medgar Evers College'):
         st.write("""
         - Major: Business Administration  
         - Relevant Coursework: Internet & Emerging Technologies, Small Business Management, Organizational Behavior  
@@ -96,18 +96,18 @@ elif page == '📚 Projects':
             st.image('download.jpeg')
         with col2:
             st.subheader('🛒 Final Essay From ELA 150')
-            st.write('Python web scraper that monitors Amazon prices and sends alerts')
-            st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
+            st.write('A Review on the Assassin's Creed series')
+            st.caption('**Technologies:** Google Docs')
 
     # Project 2
     with st.container():
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image('https://www.publicdomainpictures.net/pictures/90000/nahled/calculator-black-clipart.jpg')
+            st.image('c4edf70556f6c74ea3ae4d330d95f2b3.png')
         with col2:
-            st.subheader('📊 Student Grade Calculator')
-            st.write('Interactive web app for calculating and visualizing grades')
-            st.caption('**Technologies:** Python, Pandas, Plotly')
+            st.subheader('📊 Presentation on Environmental Health')
+            st.write('Google slides about a Environmental Health plan ')
+            st.caption('**Technologies:** Google Slides')
 
 # ---------------- SKILLS PAGE ----------------
 elif page == '🚗 Skills':
