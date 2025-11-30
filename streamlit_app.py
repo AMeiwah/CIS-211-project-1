@@ -107,9 +107,21 @@ elif page == '📚 Projects':
             st.image('c4edf70556f6c74ea3ae4d330d95f2b3.png')
         with col2:
             st.subheader('Enviromnetal Health plan')
-            st.write('[Environmental Health plan](‘https://docs.google.com/presentation/d/1ukT11X9ixuNulhJeqWLiShqhU-SCVpdUO7Okx8ec63M/edit?usp=sharing)')
+            st.write('[Environmental Health plan](https://docs.google.com/presentation/d/1ukT11X9ixuNulhJeqWLiShqhU-SCVpdUO7Okx8ec63M/edit?usp=sharing)')
             st.write('Google slides about a Environmental Health plan ')
             st.caption('**Technologies:** Google Slides')
+
+      # Project 3
+    with st.container():
+        col1, col2 = st.columns([1, 2])
+        with col1:
+            st.image('Mental health.jpeg')
+         with col2:
+             st.subheader('Mental Health survey')
+             st.write('[Mental Health survey](https://docs.google.com/presentation/d/1gWH_NLi8pDgmKs2-bM41akxZgK2PKWJtmpE8-Lcpv5s/edit?usp=sharing)')
+             st.write('Results on people's mental health')
+             st.caption('**Technologies:** Google Slides')
+            
 
 # ---------------- SKILLS PAGE ----------------
 elif page == '🚗 Skills':
