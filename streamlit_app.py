@@ -95,7 +95,8 @@ elif page == '📚 Projects':
         with col1:
             st.image('download.jpeg')
         with col2:   
-            st.subheader("[Final ELA Essay 150](Final ELA Essay 150)")
+            st.subheader("Final ELA Essay 150")
+            st.write("[Final ELA Essay 150](Final ELA Essay 150)")
             st.write('A Review on the Assassin\'s Creed 2')
             st.caption('**Technologies:** Google Docs')
    
