@@ -96,7 +96,7 @@ elif page == '📚 Projects':
             st.image('download.jpeg')
         with col2:
             st.subheader('🛒 Final Essay From ELA 150')
-            st.write('A Review on the Assassin's Creed series')
+            st.write('A Review on the Assassin\'s Creed series')
             st.caption('**Technologies:** Google Docs')
 
     # Project 2
