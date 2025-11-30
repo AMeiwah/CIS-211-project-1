@@ -95,7 +95,7 @@ elif page == '📚 Projects':
         with col1:
             st.image('download.jpeg')
         with col2:
-            st.subheader('🛒 E-Commerce Price Tracker')
+            st.subheader('🛒 Final Essay From ELA 150')
             st.write('Python web scraper that monitors Amazon prices and sends alerts')
             st.caption('**Technologies:** Python, BeautifulSoup, Streamlit')
 
