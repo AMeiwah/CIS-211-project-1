@@ -106,7 +106,7 @@ elif page == '📚 Projects':
         with col1:
             st.image('c4edf70556f6c74ea3ae4d330d95f2b3.png')
         with col2:
-           st.subheader('Enviromnetal Health plan')
+            st.subheader('Enviromnetal Health plan')
             st.write('[Environmental Health plan](‘https://docs.google.com/presentation/d/1ukT11X9ixuNulhJeqWLiShqhU-SCVpdUO7Okx8ec63M/edit?usp=sharing)')
             st.write('Google slides about a Environmental Health plan ')
             st.caption('**Technologies:** Google Slides')
