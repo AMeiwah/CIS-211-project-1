@@ -93,7 +93,7 @@ elif page == '📚 Projects':
     with st.container():
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image('https://iprx-cms-content.ams1.vultrobjects.com/Blog_How_To_Crawl_4_capcha_ded9206d5f.png')
+            st.image('download.jpeg')
         with col2:
             st.subheader('🛒 E-Commerce Price Tracker')
             st.write('Python web scraper that monitors Amazon prices and sends alerts')
