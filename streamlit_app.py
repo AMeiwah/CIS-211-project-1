@@ -151,7 +151,7 @@ elif page == '✈ Resume':
     st.title('My Resume')
 
     try:
-        with open('my_resume.pdf', 'rb') as pdf_file:
+        with open('Andy_Mei_Resume.pdf', 'rb') as pdf_file:
             PDFbyte = pdf_file.read()
 
         st.download_button(
