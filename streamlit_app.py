@@ -116,11 +116,11 @@ elif page == '📚 Projects':
         col1, col2 = st.columns([1, 2])
         with col1:
             st.image('Mental health.jpeg')
-         with col2:
-             st.subheader('Mental Health survey')
-             st.write('[Mental Health survey](https://docs.google.com/presentation/d/1gWH_NLi8pDgmKs2-bM41akxZgK2PKWJtmpE8-Lcpv5s/edit?usp=sharing)')
-             st.write('Results on people's mental health')
-             st.caption('**Technologies:** Google Slides')
+        with col2:
+            st.subheader('Mental Health survey')
+            st.write('[Mental Health survey](https://docs.google.com/presentation/d/1gWH_NLi8pDgmKs2-bM41akxZgK2PKWJtmpE8-Lcpv5s/edit?usp=sharing)')
+            st.write('Results on people's mental health')
+            st.caption('**Technologies:** Google Slides')
             
 
 # ---------------- SKILLS PAGE ----------------
